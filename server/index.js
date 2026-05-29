@@ -9,7 +9,6 @@ const port = 3000;
 app.use(cors());
 app.use(express.json());
 
-// Хранилище отправленных ID сообщений
 const sentIds = new Set();
 
 function generateRandomMessage() {
@@ -26,7 +25,7 @@ function generateRandomMessage() {
 }
 
 function generateUnreadMessages() {
-    const count = Math.floor(Math.random() * 5); // 0-4 сообщений
+    const count = Math.floor(Math.random() * 5); 
     const messages = [];
     
     for (let i = 0; i < count; i++) {
