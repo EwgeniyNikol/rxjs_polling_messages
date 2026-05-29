@@ -1,0 +1,39 @@
+{
+  "name": "rxjs_polling_messages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "build": "webpack",
+    "server": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EwgeniyNikol/rxjs_polling_messages.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EwgeniyNikol/rxjs_polling_messages/issues"
+  },
+  "homepage": "https://github.com/EwgeniyNikol/rxjs_polling_messages#readme",
+  "dependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "@faker-js/faker": "^10.4.0",
+    "babel-loader": "^10.1.1",
+    "cors": "^2.8.6",
+    "css-loader": "^7.1.4",
+    "express": "^5.2.1",
+    "html-webpack-plugin": "^5.6.7",
+    "rxjs": "^7.8.2",
+    "style-loader": "^4.0.0",
+    "uuid": "^14.0.0",
+    "webpack": "^5.107.2",
+    "webpack-cli": "^7.0.3",
+    "webpack-dev-server": "^5.2.4"
+  }
+}
