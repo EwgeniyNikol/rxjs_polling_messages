@@ -4,7 +4,7 @@ import { ajax } from 'rxjs/ajax';
 import { switchMap, catchError, map } from 'rxjs/operators';
 import { of } from 'rxjs';
 
-const API_URL = 'http://localhost:3000/messages/unread';
+const API_URL = 'https://rxjs-polling-messages.onrender.com/messages/unread';
 const messagesBody = document.getElementById('messages-body');
 const displayedIds = new Set();
 
