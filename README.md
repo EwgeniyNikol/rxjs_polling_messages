@@ -5,7 +5,7 @@
 ## Ссылки
 
 - [GitHub Pages](https://ewgeniynikol.github.io/rxjs_polling_messages) 
-- [Серверная часть на Render]
+- [Серверная часть на Render] (https://rxjs-polling-messages.onrender.com)
 
 ## Локальный запуск
 
